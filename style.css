@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+    border: dashed blue;
+    box-sizing: border-box;
+}
+
+header {
+    position: sticky;
+    width: 100%;
+    background-color: lightgray;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 0 10px 2px #aaa;
+    padding: 20px 120px;
+    z-index: 100;
+}
+section,article {
+    display: block;
+    padding: 0px 120px;
+    font-size: 20px;
+}
+img{
+    height: 100%;
+    display: block;
+    padding: 50px;
+}
+#button{
+    width: 200px;
+}
+#l1, #l2{
+    width: 192px;
+}
+#kalk {
+	margin: 0 auto;
+	width: 300px;
+	background-color: #fff;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+h1 {
+	text-align: center;
+}
+label {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+input[type="number"] {
+	display: block;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 16px;
+}
+#buttonkalk {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	width: 100%;
+	font-size: 16px;
+	cursor: pointer;
+}
+#result {
+	font-size: 24px;
+	font-weight: bold;
+	text-align: center;
+	margin-top: 20px;
+}
+#zegar{
+	font-size: 30px;
+	text-align: center;
+}
+table, th, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+}

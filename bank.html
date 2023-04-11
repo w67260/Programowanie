@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+    <meta charset="utf-8" />
+    <title>Bank</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1>Twoje konto</h1>
+    <p>Imię: <p id="firstName"></p></p>
+    <p>Nazwisko: <span id="lastName"></span></p>
+    <p>Stan konta: <span id="balance"></span> zł</p>
+    <form>
+        <label for="amount">Kwota:</label>
+        <input type="number" id="amount"><br><br>
+        <button type="button" onclick="withdraw()">Wypłać</button>
+        <button type="button" onclick="deposit()">Wpłać</button>
+    </form>
+    <button type="button" onclick="logout()">Wyloguj się</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
